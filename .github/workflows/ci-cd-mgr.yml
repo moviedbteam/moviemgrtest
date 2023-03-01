@@ -5,7 +5,8 @@ name: CI/CD Serveur MGR
 
 on:
   push:
-    branches: [ $default-branch ]
+    #branches: [ $default-branch ]
+    branches: [ main ]
 
 env:
   REGISTRY: ghcr.io
