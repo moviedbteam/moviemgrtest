@@ -96,7 +96,8 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: dist-without-markdown
-          path: dist
+          #path: dist
+          path: dist/moviemanager
 
       # ( Build to ./dist or other directory... )
 
